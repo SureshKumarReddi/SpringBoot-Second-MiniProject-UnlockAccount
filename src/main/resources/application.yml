@@ -1,0 +1,20 @@
+server:
+  port: 9091
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: Mysql@143
+    url: jdbc:mysql://localhost:3306/NewDB
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+  
+
+    
+unlock-app:
+ messages:
+    userAccountUnlocked: User Account Unlocked Successfully
+    invalidemailtemporarypwd: Given email or temporary password is incorrect
+   
+       
